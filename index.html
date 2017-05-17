@@ -10,4 +10,16 @@
     Teste
 </body>
 
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js')
+            .then(registration => {
+                console.log('registration complete. ', registration);
+            })
+            .catch(error => {
+                console.error(error);
+            })
+    }
+</script>
+
 </html>
