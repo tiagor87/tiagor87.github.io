@@ -8,14 +8,13 @@
 
 <body>
     Teste
+    <a href="google.com"></a>
 </body>
 
 <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js')
-            .then(registration => {
-                console.log('registration complete. ', registration);
-            })
+            .then(registration => {})
             .catch(error => {
                 console.error(error);
             })
