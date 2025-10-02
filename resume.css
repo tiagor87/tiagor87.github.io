@@ -148,8 +148,7 @@ body {
 
 .experience-item, .education-item {
     margin-bottom: 25px;
-    padding-left: 20px;
-    border-left: 3px solid #91e3f1;
+    padding-left: 10px;
 }
 
 .experience-header, .education-header {
