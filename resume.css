@@ -196,6 +196,11 @@ body {
     color: #555;
 }
 
+.link {
+    color: #91e3f1;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .resume-container {
         grid-template-columns: 1fr;
