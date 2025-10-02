@@ -80,6 +80,12 @@ body {
     color: #91e3f1;
 }
 
+.contact-item a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 .section-title {
     font-size: 18px;
     font-weight: bold;
